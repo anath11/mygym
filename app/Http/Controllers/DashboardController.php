@@ -21,7 +21,7 @@ class DashboardController extends Controller
                 break;
 
             case 'admin':
-                return redirect()->route('instructor.admin');
+                return redirect()->route('admin.dashboard');
                 break;
 
             default:
