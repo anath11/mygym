@@ -26,7 +26,7 @@ class ScheduledClassController extends Controller
         return view('instructor.schedule')->with('classTypes',$classTypes);
     }
 
-    /**
+    /** 
      * Store a newly created resource in storage.
      */
     public function store(Request $request)
